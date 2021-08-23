@@ -7,7 +7,7 @@
 
 <h1>Remove plagirism from text</h1>
 <p>Enter text to remove plag.</p>
-  <form action="/action_page.php">
+  <form method=”POST” action="/action_page.py">
   <textarea name="message" rows="20" cols="50"></textarea>
   <br><br>
   <input type="submit">
