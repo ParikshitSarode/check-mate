@@ -8,11 +8,15 @@
 <h1>Remove plagirism from text</h1>
 <p>Enter text to remove plag.</p>
   <form action="/action_page">
-  <textarea name="message" rows="20" cols="50"></textarea>
+  <textarea id="message" rows="20" cols="50"></textarea>
   <br><br>
   <input type="submit">
 </form>
-
+  <script>
+  var text = document.getElementById("textareabox").value;
+    alert(text);
+  </script>
+  
 
 
 </body>
