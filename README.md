@@ -17,17 +17,18 @@
   <br><br>
    <input type="button" value="Get Text" onclick="getText()" />
 
-  <script><script src="jquery.js">
-<script src="jquery.translate.js">
+  <script>
+<!--     <script src="jquery.js">
+    <script src="jquery.translate.js">
     var dict = {
-  "Home": {
+    "Home": {
     pt: "Início"
   },
   "Download plugin": {
      pt: "Descarregar plugin",
      en: "Download plugin"
   }
-}
+} -->
 
     var text = "";
   function getText() {
@@ -38,10 +39,10 @@
  
 
   
-  var translator = $text.translate({lang: "en", t: dict}); 
+<!--   var translator = $text.translate({lang: "en", t: dict}); 
 
   translator.lang("pt");
-    alert(translator);
+    alert(translator); -->
     }
     
   </script></script></script>
