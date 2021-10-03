@@ -9,24 +9,6 @@
 </head>
 <body>
 
-  <script src="jquery.js"/>
-<script src="jquery.translate.js"/>
-
-  var dict = {
-  "Home": {
-    pt: "Início"
-  },
-  "Download plugin": {
-     pt: "Descarregar plugin",
-     en: "Download plugin"
-  }
-}
-
-  
-  var translator = $('body').translate({lang: "en", t: dict}); //use English
-
-  translator.lang("pt"); //change to Portuguese
-
   
 <h1>Remove plagirism from text</h1>
 <p>Enter text to remove plag.</p>
@@ -62,7 +44,7 @@
     alert(translator);
     }
     
-  </script>
+  </script></script></script>
   
 
 
