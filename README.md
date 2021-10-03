@@ -32,7 +32,7 @@
     var text = "";
   function getText() {
     text = document.getElementById("message").value;
-    //alert(text);
+    alert(text);
 
     
  
