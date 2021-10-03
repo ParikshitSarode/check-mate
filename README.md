@@ -17,8 +17,8 @@
   <br><br>
    <input type="button" value="Get Text" onclick="getText()" />
 
-  <script><script src="jquery.js"/>
-<script src="jquery.translate.js"/>
+  <script><script src="jquery.js">
+<script src="jquery.translate.js">
     var dict = {
   "Home": {
     pt: "Início"
