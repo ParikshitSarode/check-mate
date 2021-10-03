@@ -80,12 +80,17 @@
 
   translator.lang("pt");
     alert(translator); -->
-    }
     
+<!--   }
+  
+<!--     
   </script></script></script>
   
 
 
 </body>
 </html>
+
  -->
+  -->
+   -->
