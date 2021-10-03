@@ -30,9 +30,9 @@
   }
 } -->
 
-    var text = "";
+<!--     var text = ""; -->
   function getText() {
-    text = document.getElementById("message").value;
+    var text = document.getElementById("message").value;
     alert(text);
 
     
